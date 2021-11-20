@@ -25,6 +25,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 .summary {
   background-color: var(--clr-neutral-100);
   display: flex;
@@ -103,6 +111,12 @@ h4 {
   font-weight: 700;
   color: var(--clr-neutral-200);
   text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+button:hover {
+  opacity: 0.7;
 }
 @media (min-width: 1440px) {
   body {
